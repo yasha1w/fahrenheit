@@ -1,0 +1,25 @@
+<script>
+    let temperatura = prompt("Insira a temperatura em Fahrenheit")
+    let  escolha = prompt("Insira a temperatura em celsius")
+    
+    function Converter(temperatura, escala){
+if (escala === "C"){
+    return (9/5) * temperatura + 32;
+} else if (temperatura === "F"){
+    return  (5/9) * "temperatura" - 32;
+
+    if(escolha == "1"){
+        let temperaturaConvertida = Converter(temperatura, "C")
+        alert("a temperatura em fahrenheit é")
+        (temperaturaConvertida.topFixed(2) + "°F")
+    } else if (escolher === "2"){
+        let temperaturaConvertida = Converter(temperatura, "F")
+    }
+
+}else {
+    alert("Temperatura não identificada")
+}
+        
+    }
+
+</script>
